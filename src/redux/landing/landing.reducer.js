@@ -1,4 +1,4 @@
-import {TOGGLE_SIDEBAR} from './landing.types'
+import {OPEN_SIDEBAR,CLOSE_SIDEBAR  } from './landing.types'
 
 const INITIAL_STATE={
     sidebar: false,
@@ -11,11 +11,16 @@ const landingReducer = (state=INITIAL_STATE,action)=>{
     const {type,payload} = action;
 
     switch(type){
-        case TOGGLE_SIDEBAR:
+        case OPEN_SIDEBAR:
             return{
                 ...state,
-                sidebar:!state.sidebar
-            }
+                sidebar:true
+            };
+         case CLOSE_SIDEBAR:
+                return{
+                    ...state,
+                    sidebar:false
+                };
         default:
             return state;
     }
