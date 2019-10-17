@@ -1,6 +1,4 @@
-import styled from "styled-components";
-import googleMap from "/Users/shincat/webDevelopment/portfolio2/src/image/googlemap.png";
-import games from "/Users/shincat/webDevelopment/portfolio2/src/image/gameDev.jpg";
+import styled from 'styled-components';
 
 export const LandingStyles = styled.div`
   /* Frexible screen */
@@ -328,165 +326,7 @@ export const LandingStyles = styled.div`
     }
   }
 
-  .projectWrapper {
-    position: relative;
-    height: 100%;
-    width: 100%;
-  }
 
-  .projectContent {
-    position: relative;
-    animation: fadein 0.5s 0.6s forwards;
-    -webkit-animation: fadein 0.5s 0.6s forwards; /* Safari, Chrome and Opera > 12.1 */
-    -moz-animation: fadein 0.5s 0.6s forwards; /* Firefox < 16 */
-    -ms-animation: fadein 0.5s 0.6s forwards; /* Internet Explorer */
-    -o-animation: fadein 0.5s 0.6s forwards; /* Opera < 12.1 */
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }
-
-  .p1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 25vh;
-    width: 100%;
-
-    .p1Img {
-      position: relative;
-      width:100%;
-height:100%;
-      transition: 0.2s ease-in;
-      color: white;
-    background-image: url(${googleMap});
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center center; 
-
-    -webkit-background-repeat:no-repeat;
-      -webkit-background-size: cover;
-      -webkit-background-position:center center;
-
-      -moz-background-repeat:no-repeat;
-      -moz-background-size: cover;
-      -moz-background-position:center center;
-
-      -o-background-repeat:no-repeat;
-      -o-background-size: cover;
-      -o-background-position:center center;
-
-      animation: animatedBackground 180s linear infinite;
-      -webkit-animation: animatedBackground 180s linear infinite;/* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: animatedBackground 180s linear infinite; /* Firefox < 16 */
-      -ms-animation: animatedBackground 180s linear infinite; /* Internet Explorer */
-      -o-animation: animatedBackground 180s linear infinite; /* Opera < 12.1 */
-    }
-  }
-
-  .p1Desc {
-    position: relative;
-    top: 0;
-    left: 0;
-    color: white;
-    background-color: #ff1d58;
-    height: 100%;
-    width: 100%;
-    opacity: 1; 
-    transition: 0.2s ease-in;
-    padding: 5%;
-
-    h3 {
-      color: #fff685;
-      font-size: 1em;
-      margin: 0 0 3% 0;
-    }
-    .github {
-      position: relative;
-      font-size: 2em;
-      text-align: right;
-
-      .icon {
-        color: white;
-        :hover {
-          color: #fff685;
-        }
-        &:focus {
-          color: #fff685;
-        }
-      }
-    }
-  }
-
-  .p2 {
-    position: relative;
-    height: 25vh;
-    width: 100%;
-    top: 0;
-    right: 0;
-    color: white;
-
-    .p2Img {
-      position: relative;
-      width:100%;
-height:100%;
-      transition: 0.2s ease-in;
-     background-image: url(${games});
-     background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center center; 
-
-    -webkit-background-repeat:no-repeat;
-      -webkit-background-size: cover;
-      -webkit-background-position:center center;
-
-      -moz-background-repeat:no-repeat;
-      -moz-background-size: cover;
-      -moz-background-position:center center;
-
-      -o-background-repeat:no-repeat;
-      -o-background-size: cover;
-      -o-background-position:center center;
-      animation: animatedBackground 180s linear infinite;
-      -webkit-animation: animatedBackground 180s linear infinite;/* Safari, Chrome and Opera > 12.1 */
-      -moz-animation: animatedBackground 180s linear infinite; /* Firefox < 16 */
-      -ms-animation: animatedBackground 180s linear infinite; /* Internet Explorer */
-      -o-animation: animatedBackground 180s linear infinite; /* Opera < 12.1 */
-    }
-  }
-
-  .p2Desc {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    color: white;
-    background-color: #ff1d58;
-    padding: 5%;
-
-
-    h3 {
-      color: #fff685;
-      font-size: 1em;
-    }
-    .linkedin {
-      position: relative;
-      font-size: 2em;
-      text-align: right;
-
-      .icon {
-        color: white;
-        :hover {
-          color: #fff685;
-        }
-        &:focus {
-          color: #fff685;
-        }
-      }
-    }
-  }
   .linkedWebsite{
   color:#0049b7;
   :hover {
@@ -587,97 +427,6 @@ height:100%;
       height: 100%;
       width: 100%;
     }
-
-    .projectContent {
-      top: 0;
-      left: 0;
-      height: 100vh;
-      width: 100vw;
-      display: grid;
-      grid-template-columns: 1fr 2fr 1fr;
-      grid-gap: 1%;
-      grid-auto-rows: minmax(100px, auto);
-      justify-items: stretch;
-      align-items: stretch;
-      background: white;
-    }
-
-    .p1 {
-      height: 100%;
-      width: 100%;
-      grid-column: 1/3;
-      grid-row: 1/3;
-      overflow: hidden;
-      .p1Img {
-        height: 100%;
-        width: 100%;
-        animation: scale 80s infinite;
-      }
-    }
-
-    .p1Desc {
-      height: 100;
-      width: 100%;
-      grid-column: 3;
-      grid-row: 1/3;
-      padding: 3%;
-
-      .p1DescCont {
-        position: relative;
-
-        width: 85%;
-        top: 65%;
-
-        h3 {
-          font-size: 2em;
-        }
-        .github {
-          font-size: 2em;
-        }
-      }
-    }
-
-    .p2 {
-      height: 100%;
-      width: 100%;
-      background-color: #ff1d58;
-      grid-column: 2/4;
-      grid-row: 3;
-      overflow: hidden;
-
-      .p2Img {
-        height: 100%;
-        width: 100%;
-
-        animation: scale 80s infinite;
-      }
-    }
-
-    .p2Desc {
-      position: relative;
-      height: 100;
-      width: 100%;
-      grid-column: 1;
-      grid-row: 3;
-      padding: 5%;
-
-      .p2DescCont {
-        position: relative;
-        top: 0;
-        left: 11%;
-        height: 100%;
-        width: 90%;
-
-        h3 {
-          font-size: 2em;
-        }
-        .linkedin {
-          position: relative;
-          font-size: 2em;
-          text-align: right;
-        }
-      }
-    }
   }
 
   @media screen and (min-width: 860px) and (max-width: 1199px) {
@@ -732,15 +481,6 @@ left:90%;
       }
     }
 
-    .p1Desc {
-      padding: 2%;
-      font-size: 2em;
-    }
-
-    .p2Desc {
-      padding: 2%;
-      font-size: 2em;
-    }
   }
 
 
@@ -822,15 +562,6 @@ left:90%;
       }
     }
 
-    .p1Desc {
-      padding: 2%;
-      font-size: 1.5em;
-    }
-
-    .p2Desc {
-      padding: 2%;
-      font-size: 1.5em;
-    }
   }
 
   /* @media screen and (min-width: 480px) and (max-width: 767px) {
