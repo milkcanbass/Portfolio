@@ -6,7 +6,7 @@ https://www.shintarokai.com
 
 - [General info](#general-info)
 - [Test](#test)
-- [Technologies](#technologies)
+- [Dependencies](#Dependencies)
 
 ## General info
 
