@@ -20,7 +20,6 @@ export default class Landing extends Component {
 
   scrollEvent = () => {
     let scrollY = window.scrollY;
-    console.log(scrollY);
 
     if (scrollY > 1500) {
       this.setState({

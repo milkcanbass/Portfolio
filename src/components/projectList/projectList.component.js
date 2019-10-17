@@ -6,7 +6,6 @@ import { selectProjectListData } from '../../redux/projectList/projectList.selec
 import Project from '../project/project.component';
 
 const ProjectList = ({ projectList }) => {
-  console.log(projectList);
   return (
     <ProjectListStyles>
       <div className="projectListWrapper">

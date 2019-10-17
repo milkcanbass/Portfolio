@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Project = props => {
-  console.log(props);
   const { name, imageUrl, description, url, sourceUrl, linkedin } = props;
   return (
     <ProjectStyles>
@@ -16,7 +15,7 @@ const Project = props => {
           </div>
         </div>
         <div className="projectFooter">
-          <a className="name" href={url}>
+          <a className="name" href={url} target="_blank">
             {name}
           </a>
           <a className="githubIcon" target="_blank" href={sourceUrl}>

@@ -7,7 +7,6 @@ export const ProjectStyles = styled.div`
 
     :hover .projectBody {
       opacity: 0.7;
-      /* transition: all 1s; */
     }
 
     img {
