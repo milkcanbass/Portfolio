@@ -57,7 +57,7 @@ export const ProjectStyles = styled.div`
         font-size: 1.5em;
         color: black;
         text-decoration: none;
-        margin-right: 3px;
+        margin-right: 15px;
       }
     }
 

@@ -1,8 +1,8 @@
 export const projectListData = [
   {
-    name: 'Jiafeimao Store',
+    name: 'Online shop project ',
     description:
-      '2nd project.An imaginary online web store. It is developed with React, Redux, Webpack, Jest, Firebase, and Stripe.',
+      'An imaginary online shop. Users can stock items to cart to purchase. It is developed with React, Redux, Webpack, Jest, SASS, PWA. Firebase handles authentication and stores user and shop Item data. I used Stripe for payment.',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/myportfolio-563d3.appspot.com/o/projects%2Fmaplog%2FjiafeimaoStore.png?alt=media&token=3fd05242-2161-41c6-b037-5ff1dae5d1b4',
     url: 'https://jaifeimaohandagou.firebaseapp.com/',
@@ -12,7 +12,7 @@ export const projectListData = [
   {
     name: 'MapLog',
     description:
-      '1st project. Personal image data storage web service with google map API. It is developed with React, Redux, Node, and MongoDB.',
+      '1st personal project. This is a personal image storage with location data web service.  I developed it with React, Redux, Node.js, express, JavaScript, Bootstrap, Google Maps API, MongoDB, CSS, and HTML.',
     imageUrl:
       'https://firebasestorage.googleapis.com/v0/b/myportfolio-563d3.appspot.com/o/projects%2Fmaplog%2Fmaplog.png?alt=media&token=4c5fab19-2789-4ab4-ba3f-dbf6e8bc05bf',
     url: 'https://fierce-sierra-91230.herokuapp.com/',
