@@ -6,7 +6,8 @@ export const ProjectStyles = styled.div`
     margin: 5px;
 
     :hover .projectBody {
-      visibility: visible;
+      opacity: 0.7;
+      /* transition: all 1s; */
     }
 
     img {
@@ -21,7 +22,8 @@ export const ProjectStyles = styled.div`
       align-items: center;
       height: 255px;
       width: 250px;
-      visibility: hidden;
+      opacity: 0;
+      transition: all 1s;
       .background {
         position: absolute;
         height: 100%;
@@ -30,7 +32,6 @@ export const ProjectStyles = styled.div`
         justify-content: center;
         align-items: center;
         background-color: black;
-        opacity: 0.7;
         .description {
           color: white;
           text-align: center;
