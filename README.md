@@ -6,7 +6,6 @@ https://www.shintarokai.com
 
 - [General info](#general-info)
 - [Test](#test)
-- [How to use](#how-to-use)
 - [Technologies](#technologies)
 
 ## General info
